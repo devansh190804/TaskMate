@@ -135,7 +135,7 @@ header .themeSelector .activeTheme{
   background-color: #03b056;
 }
 
-.showTask{
+.TaskShow{
   padding: 20px 15px;
   border-radius: 5px;
   background-color: #FFFFFF;
@@ -143,7 +143,7 @@ header .themeSelector .activeTheme{
   box-shadow: var(--box-shadow);
 }
 
-.showTask .head{
+.TaskShow .head{
   padding: 10px 0px 20px 0px;
   border-bottom: 1px solid #dfdfdf;
   display: flex;
@@ -152,17 +152,17 @@ header .themeSelector .activeTheme{
   padding: 1rem;
 }
 
-.showTask .head span:first-child{
+.TaskShow .head span:first-child{
   flex-grow: 1;
 }
 
-.showTask .title{
+.TaskShow .title{
   font-size: 18px;
   font-weight: 600;
   user-select: none;
 }
 
-.showTask .count{
+.TaskShow .count{
   background-color: #dfdfdf;
   color: #525252;
   padding: 5px 10px;
@@ -171,7 +171,7 @@ header .themeSelector .activeTheme{
   user-select: none;
 }
 
-.showTask .clearAll{
+.TaskShow .clearAll{
   background-color: #0f6af3;
   color: #FFFFFF;
   padding: 5px 10px;
@@ -179,11 +179,11 @@ header .themeSelector .activeTheme{
   cursor: pointer;
 }
 
-.showTask .clearAll:hover{
+.TaskShow .clearAll:hover{
   background-color: #1061db;
 }
 
-.showTask ul{
+.TaskShow ul{
   margin: 30px 5px 20px 5px;
   display: flex;
   flex-direction: row;
@@ -192,7 +192,7 @@ header .themeSelector .activeTheme{
   gap: 15px;
 }
 
-.showTask li{
+.TaskShow li{
   padding: 15px 10px;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
@@ -203,40 +203,40 @@ header .themeSelector .activeTheme{
   border-left: 5px solid #1365dfaf;
 }
 
-.showTask li:hover{
+.TaskShow li:hover{
   background-color: #f8f8f8;
 }
 
-.showTask li p{
+.TaskShow li p{
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
-.showTask li .name{
+.TaskShow li .name{
   font-size: 18px;
   padding-bottom: 5px;
 }
 
-.showTask li .time{
+.TaskShow li .time{
   font-size: 12px;
   color: #737373;
 }
 
-.showTask i.bi-pencil-square{
+.TaskShow i.bi-pencil-square{
   font-size: 18px;
   color: #1363DF;
   cursor: pointer;
 }
 
-.showTask i.bi-trash{
+.TaskShow i.bi-trash{
   font-size: 18px;
   color: #D82148;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
-  .showTask li{
+  .TaskShow li{
     width: 100%;
   }
 }

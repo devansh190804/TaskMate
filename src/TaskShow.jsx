@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ShowTask = ({taskList,setTaskList, task, setTask}) => {
+const TaskShow = ({taskList,setTaskList, task, setTask}) => {
 
     const handleDelete = (id)=>{
       //  const updatedTaskList = taskList.filter(todo => todo.id !== id)
@@ -14,7 +14,7 @@ const ShowTask = ({taskList,setTaskList, task, setTask}) => {
 
 
   return (
-    <section className='showTask'>
+    <section className='TaskShow'>
        <div className="head">
               <div>
                  <span className='title'>Todo</span>
@@ -39,4 +39,4 @@ const ShowTask = ({taskList,setTaskList, task, setTask}) => {
   )
 }
 
-export default ShowTask
+export default TaskShow

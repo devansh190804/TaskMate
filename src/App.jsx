@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import Header from './components/Header'
 import AddTask from './components/AddTask'
+import TaskShow from './TaskShow'
 import './index.css'
-import ShowTask from './components/showTask'
+
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <div>
       <Header />
       <AddTask taskList={taskList} setTaskList={setTaskList} task={task} setTask={setTask}/>
-      <ShowTask taskList={taskList} setTaskList={setTaskList} task={task} setTask={setTask}/>
+      <TaskShow taskList={taskList} setTaskList={setTaskList} task={task} setTask={setTask}/>
     </div>
   )
 }
